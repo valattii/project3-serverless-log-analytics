@@ -1,0 +1,33 @@
+# AWS Credentials - NEVER commit these
+
+.aws/
+*.csv
+aws-credentials*
+
+#SpringBoot build artifacts
+
+springboot-log-generator/target/
+springboot-log-generator/.classpath
+springboot-log-generator/.project
+springboot-log-generator/.settings/
+springboot-log-generator/*.class
+
+#Actual log files (too large, use sample_logs instead
+
+springboot-log-generator/logs/
+*.logs
+
+#Python
+
+__pycache__/
+*.pyc
+.env
+venv/
+env/
+
+#IDE files
+
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
