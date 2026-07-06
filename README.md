@@ -67,9 +67,9 @@ This is what the SNS alert system detects and reports on.
 ## Status
 - [x] Day 1 — Spring Boot log generator
 - [x] Day 2 — AWS S3 setup + Python uploader  
-- [ ] Day 3 — AWS Lambda parser
-- [ ] Day 4 — Glue Crawler + Athena queries
-- [ ] Day 5 — SNS alerts + end to end testing
+- [x] Day 3 — AWS Lambda parser
+- [x] Day 4 — Glue Crawler + Athena queries
+- [x] Day 5 — SNS alerts + end to end testing  ✅ COMPLETE
 
 ## Background
 Built as Project 3 of my Data Engineering roadmap.  
